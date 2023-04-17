@@ -14,3 +14,4 @@ assert c([2, 4, 6]) == [1, 2, 3]
 
 d = lambda func, *args, **kwargs: func(*args, **kwargs)
 print(d(c, [4, 6, 8]))
+
