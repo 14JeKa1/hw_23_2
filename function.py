@@ -20,7 +20,7 @@ def map_query(value: str, data: Iterable[str]) -> Iterable[str]:
 
 
 def sort_query(value: str, data: Iterable[str]):
-    reverse = value = 'desc'
+    reverse = value == 'desc'
     return sorted(data, reverse=reverse)
 
 def regex_query(value: str, data: Iterable[str]):

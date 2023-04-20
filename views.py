@@ -47,4 +47,3 @@ def perform_query() -> Union[Response, tuple[Response, int]]:
     #     )
 
     # return jsonify(result)
-
